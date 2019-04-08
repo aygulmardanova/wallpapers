@@ -18,14 +18,12 @@
     <label for="heightInM">Высота (м):</label>
     <input type="number" name="heightInM" id="heightInM" value=2.75>
 </p>
-<button id="wallPapersCountBtn" type="button">
+<button id="wallPapersCount-btn" type="button">
     Рассчитать число рулонов
 </button>
-<script type="module">
-    import {getWpCount} from './js/app.js';
-    document.querySelector('#wallPapersCountBtn').addEventListener('click', getWpCount)
-</script>
 <p>Необходимо рулонов:
-    <output id="wpCount"/>
+    <output id="wpCount"></output>
+</p>
+<script src="js/app.js" type="module"></script>
 </body>
 </html>
