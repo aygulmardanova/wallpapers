@@ -1,1 +1,1 @@
-# Wallpapers Calculator 
+# Wallpapers Calculator [![Build Status](https://travis-ci.org/aygulmardanova/wallpapers.svg?branch=master)](https://travis-ci.org/aygulmardanova/wallpapers) [![codecov](https://codecov.io/gh/aygulmardanova/wallpapers/branch/master/graph/badge.svg)](https://codecov.io/gh/aygulmardanova/wallpapers)
