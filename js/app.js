@@ -4,9 +4,9 @@ document.querySelector('#wallPapersCount-btn').addEventListener('click', setWpCo
 
 export function setWpCount() {
 
-    const lengthInM = Number(document.getElementById("lengthInM").value);
-    const widthInM = Number(document.getElementById("widthInM").value);
-    const heightInM = Number(document.getElementById("heightInM").value);
+    const lengthInM = Number(document.getElementById("length-in-m").value);
+    const widthInM = Number(document.getElementById("width-in-m").value);
+    const heightInM = Number(document.getElementById("height-in-m").value);
 
     let wpCount = 0;
     if (lengthInM * widthInM * heightInM !== 0) {
