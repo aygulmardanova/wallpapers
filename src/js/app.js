@@ -1,5 +1,4 @@
 import {getWallPapersCount} from "./lib.js";
-import {getWallPapersCount} from "./lib";
 
 document.querySelector('#wallPapersCount-btn').addEventListener('click', setWpCount);
 
