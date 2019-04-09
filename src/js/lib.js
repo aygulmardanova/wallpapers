@@ -5,8 +5,8 @@ export function getWallPapersCount(lengthInM, widthInM, heightInM) {
 
     const perimeterInM = 2 * lengthInM + 2 * widthInM;
 
-    let wpLines = perimeterInM / wpWidthInM;
-    let wpLinesInOneRoll = wpLengthInM / (heightInM + lengthReserveInM);
+    const wpLines = perimeterInM / wpWidthInM;
+    const wpLinesInOneRoll = wpLengthInM / (heightInM + lengthReserveInM);
 
     return wpLines / wpLinesInOneRoll;
 }
