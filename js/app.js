@@ -8,7 +8,10 @@ export function setWpCount() {
     let widthInM = Number(document.getElementById("widthInM").value);
     let heightInM = Number(document.getElementById("heightInM").value);
 
-    document.getElementById("wpCount").innerHTML = lengthInM * widthInM * heightInM !== 0
-        ? getWallPapersCount(lengthInM, widthInM, heightInM)
-        : 0;
+    let wpCount = 0;
+    if (lengthInM * widthInM * heightInM !== 0) {
+        wpCount = getWallPapersCount(lengthInM, widthInM, heightInM);
+    }
+
+    document.getElementById("wpCount").innerHTML = wpCount;
 }
